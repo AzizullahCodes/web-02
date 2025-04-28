@@ -26,7 +26,11 @@ padding-right: 0;
 padding-left: 0;
 background: transparent !important;
 color: black !important;}
-.me-2{c}
+#btn-btn{font-size: 14px;}
+#span-2{background:transparent !important;
+line-height: 5vh;}
+.projects{padding:20px;}
+#row-row{gap:20px;}
 }
 
 .about img{width: 80%;}
@@ -42,3 +46,22 @@ padding:30px}
 
 
 #row-2-setting{background-color:seashell;}
+
+/* projects */
+.projects{background: linear-gradient(to right,#007873,#ee5e3b);
+color:white;
+margin-bottom: 40px;
+padding-bottom: 30px;}
+
+#btn-btn{background:transparent;
+}
+
+#projec-row2-img{max-width: 90%;
+border-radius: 10px;
+}
+
+/* section b */
+.b{background: linear-gradient(to right,#007873,#ee5e3b);}
+
+.b img{border-radius:20px;
+border:none;}
