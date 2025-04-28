@@ -1,0 +1,44 @@
+.custom-btn{background-color: #ee5e3b;
+color:white;
+font-weight: bold;}
+
+.navbar-nav{color:#757575;
+font-weight: bold;}
+
+button{background-color: #007873;
+    font-size: 18px;
+    border-radius: 40px;
+    padding:12px 32px;
+    border:none;
+    font-weight: bold;
+color:white;}
+button a{text-decoration: none;
+color:white;}
+
+.custom-btn-2{background-color: #ee5e3b;}
+
+@media(max-width:600px){
+#d-flex{flex-direction: column;
+gap:10px}
+#span-1{font-size: 20px;
+font-weight: normal;
+padding-right: 0;
+padding-left: 0;
+background: transparent !important;
+color: black !important;}
+.me-2{c}
+}
+
+.about img{width: 80%;}
+/* services */
+.btn-small{background-color: #ee5e3b;
+border:none;}
+
+.custom-service-col{
+background-color:seashell;
+border-radius: 10px;
+padding:30px}
+
+
+
+#row-2-setting{background-color:seashell;}
