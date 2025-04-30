@@ -103,3 +103,21 @@ font-size: 18px;}
 flex-direction: column;
 gap:20px;
 margin-top: 60px;}
+
+#contact-footer{background-color: white;
+padding-top:40px;
+border-radius: 10px;}
+
+#service-img{width:140px;}
+
+#featured-img{width: 180px;}
+.footer-last-ul{display: flex;
+gap:16px;}
+
+.footer-last-ul li{list-style: none;}
+
+.footer-last-ul li a{text-decoration: none;
+color:black;}
+.d-flex{display: flex;
+justify-content: space-between;
+}
