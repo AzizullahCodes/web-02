@@ -36,8 +36,13 @@ line-height: 5vh;}
 
 .about img{width: 80%;}
 /* services */
+.services{margin-top: -180px;
+background: linear-gradient(to right,#007873,#ee5e3b);
+padding-top:50px;}
 .btn-small{background-color: #ee5e3b;
 border:none;}
+.service-social{display: flex;
+gap:20px;}
 
 .custom-service-col{
 background-color:seashell;
@@ -88,9 +93,13 @@ flex-direction: column;}
 /* section e */
 #phone-id{display: flex;
 flex-direction: row;
-align-items: center;}
+}
 #e-row{display: flex;
 justify-content: space-between !important;}
+
+.zzz{display: flex;
+align-items: center;
+gap:9px;}
 
 /* footer */
 footer{background-color: #f4f4f499;}
@@ -123,8 +132,8 @@ justify-content: space-between;
 }
 
 @media(max-width:576px){#btn-primary{position: relative;
-top:15px;
-left:90px;}
+top:20px;
+left:100px;}
 #select{position: relative;
 top:40px;
 left:-145px;}
@@ -134,4 +143,9 @@ left:-145px;}
 .footer-last-ul{display: flex;
 flex-direction: column;}
 #service-ul{margin-top: -5px;
-gap:10px;}}
+gap:10px;}
+#phone-id{display: flex;
+}
+.zzz{position: relative;
+left:20px;}
+.services{margin-top:30px;}}
