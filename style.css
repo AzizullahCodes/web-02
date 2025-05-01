@@ -121,3 +121,17 @@ color:black;}
 .d-flex{display: flex;
 justify-content: space-between;
 }
+
+@media(max-width:576px){#btn-primary{position: relative;
+top:15px;
+left:90px;}
+#select{position: relative;
+top:40px;
+left:-145px;}
+.hr-1{margin-top:60px;}
+#payment{padding:5px 20px;}
+#branding-col{margin-top: -100px;}
+.footer-last-ul{display: flex;
+flex-direction: column;}
+#service-ul{margin-top: -5px;
+gap:10px;}}
